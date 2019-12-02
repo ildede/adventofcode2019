@@ -1,8 +1,10 @@
+package cloud.happydev.dayone;
+
 public class FuelCalculator {
     public FuelCalculator() {
     }
 
-    protected Long getFuelCost(Long mass) {
+    public Long getFuelCost(Long mass) {
         if (mass <= 0) {
             return 0L;
         } else {
